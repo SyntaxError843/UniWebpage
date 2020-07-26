@@ -1,0 +1,331 @@
+@font-face {
+  font-family: GayathriBold;
+  src: url(../fonts/Gayathri/Gayathri-Bold.ttf);
+}
+
+@font-face {
+  font-family: UbuntuBold;
+  src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+	font-family: UbuntuLight;
+	src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+@font-face {
+	font-family: UbuntuRegular;
+	src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+body {
+	margin: 0;
+	background-color: #f2f2f2;
+}
+
+.header {
+	width: 100%;
+	padding: 1px 0;
+	background-color: #ff751a;
+	font-family: GayathriBold;
+	color: lightgrey;
+	box-shadow: 0 0 15px 5px rgba(31, 73, 125, 0.8);
+}
+
+.top-bar {
+	width: 83%;
+	padding: 0;
+	margin: 10px 10%;
+}
+
+.top-bar img{
+	width: 18px;
+	height: 14px;
+	margin-right: 1%;
+}
+
+.top-bar li {
+	display: inline;
+	vertical-align: middle;
+	margin: 1%;
+	padding: 0;
+}
+
+.top-bar li a{
+	color: lightgrey;
+	text-decoration: none;
+}
+
+.top-bar li a:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.padding {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.navbar {
+	font-family: GayathriBold;
+	font-size: 20px;
+	width: 100%;
+	padding-top: 10px;
+	border-bottom: 1px solid darkgray;
+}
+
+.navbar ul {
+	margin: 0;
+	padding: 0 10%;
+}
+
+.navbar li {
+	display: inline;
+	vertical-align: middle;
+	padding: 3%;
+	text-shadow: 2px 0 lightgrey;
+}
+
+.navbar img {
+	width: 75px;
+	height: 95px;
+	margin-right: 1%;
+}
+
+.navbar a {
+	color: #162f32;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #ff751a;
+	text-decoration: underline;
+}
+
+.navbar-padding {
+	padding: 0 10%;
+}
+
+
+.front {
+	padding: 1px;
+	font-family: UbuntuBold;
+	color: #ff751a;
+	background-image: url("../images/png/front.jpg");
+	background-size: 100% 100%;
+	border: 1px solid black;
+}
+
+.front-OE {
+	padding: 1px;
+	font-family: UbuntuBold;
+	color: #ff751a;
+	background-image: url("../images/png/elearn1.jpg");
+	background-size: 100% 100%;
+	border: 1px solid black;
+}
+
+.description {
+	background-color: rgba(191, 191, 191,0.5);
+	border-radius: 20px;
+	box-shadow: 0 0 15px 5px lightgrey;
+	width: 40%;
+	margin-top: 150px;
+	margin-left: 100px;
+}
+
+.description * {
+	margin-left: 20px;
+}
+
+.description hr {
+	width: 80%;
+	float: left;
+	margin-left: 40px;
+}
+
+.title, .subtitle {
+	text-shadow: 1px 2px lightgrey;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: lightgrey;
+}
+
+.title {
+	font-size: 25px;
+	width: 90%;
+	padding-top: 1px;
+}
+
+.title h1 {
+	margin-bottom: 0px;
+}
+
+.subtitle {
+	font-size: 15px;
+	width: 80%;
+	margin-left: 30px;
+}
+
+.subtitle h2 {
+	margin-top: 30px;
+	margin-bottom: 180px;
+	padding-bottom: 50px;
+}
+
+.articles {
+	margin: 50px 0px;
+	font-family: UbuntuLight;
+}
+
+.articles hr {
+	margin-top: 30px;
+	width: 80%;
+}
+
+.greetings {
+	text-align: center;
+	width: 80%;
+	margin: 0 10%;
+}
+
+.tabs {
+	text-align: center;
+	margin: 3% 5%;
+}
+
+.tabs-img img {
+	height: 100px;
+	width: 100px;
+}
+
+.tabs-img img:hover {
+	background-color: lightgrey;
+	box-shadow: 0 0 15px 10px lightgrey;
+	border-radius: 15px;
+}
+
+.tabs-title td {
+	font-family: UbuntuLight;
+	width: 25%
+}
+
+.tabs-description td{
+	padding: 0 4%;
+}
+
+.contactInfo {
+	font-family: GayathriBold;
+	margin-left: 50px;
+}
+
+.contactInfo ul li {
+	list-style-type: none;
+	vertical-align: middle;
+	margin: 20px;
+}
+
+.contactInfo h3 {
+	text-decoration: underline;
+}
+
+.map {
+	 height:300px;
+	 width:480px;
+	 margin: 20px;
+	 border: 2px solid darkgray;
+	 box-shadow: 5px 5px 15px 10px lightgrey;
+}
+
+.padded {
+	padding: 10px;
+}
+
+.form {
+	width: 60%;
+	margin-bottom: 5%;
+}
+
+.form div {
+	padding: 10px 10px;
+}
+
+#email {
+	padding: 5px 0;
+	width: 50%;
+}
+
+#comment {
+	height: 150px;
+	width: 50%;
+}
+
+.form button {
+	width: 100px;
+	height: 30px;
+}
+
+.courses {
+	padding: 20px;
+	font-size: 20px;
+	margin: 20px;
+	margin-bottom: 40px;
+	font-family: GayathriBold;
+}
+
+.main {
+	list-style: upper-roman;
+}
+
+.footer {
+	bottom: 0px;
+	width: 100%;
+	padding: 1px 0;
+	background-color: #ff751a;
+	font-family: GayathriBold;
+	color: lightgrey;
+	box-shadow: 0 0 15px 5px rgba(31, 73, 125, 0.8);
+}
+
+.container {
+	width: 83%;
+	padding: 0;
+	margin: 10px 10%;
+}
+
+.container-OE {
+	width: 80%;
+	padding: 0;
+	margin: 50px 8%;
+	font-family: UbuntuRegular;
+	background-color: lightgray;
+	padding: 10px 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px 10px darkgray;
+	vertical-align: middle;
+}
+
+.introduction div {
+	margin-bottom: 15px;
+	line-height: 27px;
+	font-size: 16px;
+}
+
+.introduction h1 {
+	margin: 30px 0;
+}
+
+.introduction table {
+	margin: 0 7%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.introduction thead td{
+	font-weight: bold;
+	border: 3px solid black;
+}
+
+.introduction td {
+	border: 2px solid black;
+	padding: 10px;
+}
