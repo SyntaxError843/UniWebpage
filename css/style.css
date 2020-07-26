@@ -110,7 +110,7 @@ body {
 .front {
 	padding: 1px;
 	font-family: UbuntuBold;
-	color: #ff751a;
+	color: #ff6600;
 	background-image: url("../images/png/front.jpg");
 	background-size: 100% 100%;
 	border: 1px solid black;
@@ -119,7 +119,7 @@ body {
 .front-OE {
 	padding: 1px;
 	font-family: UbuntuBold;
-	color: #ff751a;
+	color: #ff6600;
 	background-image: url("../images/png/elearn1.jpg");
 	background-size: 100% 100%;
 	border: 1px solid black;
